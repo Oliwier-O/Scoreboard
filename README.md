@@ -10,4 +10,4 @@ A simple basketball scoreboard built with HTML, CSS, and JavaScript.
 
 ## Live Demo
 
-[View Basketball Scoreboard](https://oliwier-o.github.io/basketball-scoreboard/)
+[View Basketball Scoreboard](https://oliwier-o.github.io/Scoreboard/)
