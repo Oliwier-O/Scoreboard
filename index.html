@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Scoreboard</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="container">
+        <div>
+            <h3>HOME</h3>
+            <p id="home-score">0</p>
+            <button onclick="incrementHome1()">+1</button>
+            <button onclick="incrementHome2()">+2</button>
+            <button onclick="incrementHome3()">+3</button>
+        </div>
+        <div class="functions">
+            <h1 id="timer">00:00</h1>
+            <button onclick="startTimer()">START</button>
+            <button onclick="pauseTimer()">PAUSE</button>
+            <button onclick="resetTimer()">RESET</button>
+            <button id="reset" onclick="resetScores()">RESET ALL</button>
+        </div>
+
+        <div>
+            <h3>GUEST</h3>
+            <p id="guest-score">0</p>
+            <button onclick="incrementGuest1()">+1</button>
+            <button onclick="incrementGuest2()">+2</button>
+            <button onclick="incrementGuest3()">+3</button>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
